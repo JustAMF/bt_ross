@@ -38,4 +38,9 @@ public class InfoAnalysisImpl implements InfoAnalysis{
     public Page<RunningInformation> findAllByOrderByHeartRateDesc(Pageable pageable) {
         return runningInfoRepository.findAllByOrOrderByHeartRateDesc(pageable);
     }
+
+    @Override
+    public void deleteByRunningId(String runningId) {
+        runningInfoRepository.deleteByRunningId(runningId);
+    }
 }

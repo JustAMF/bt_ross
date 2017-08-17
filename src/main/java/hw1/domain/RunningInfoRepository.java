@@ -13,5 +13,5 @@ public interface RunningInfoRepository extends JpaRepository<RunningInformation,
     @RestResource(path = "runners")
     Page<RunningInformation> findByhealthWarningLevel(@Param("HealthWarningLevel") RunningInformation.HealthWarningLevel healthWarningLevel, Pageable pageable);
     Page<RunningInformation> findAllByOrOrderByHeartRateDesc(Pageable pageable);
-
+    void deleteByRunningId(String runningId);
 }

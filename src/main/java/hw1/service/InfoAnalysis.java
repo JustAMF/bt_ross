@@ -15,4 +15,6 @@ public interface InfoAnalysis {
     Page<RunningInformation> findByHealthWarningLevel(RunningInformation.HealthWarningLevel healthWarningLevel, Pageable pageable);
 
     Page<RunningInformation> findAllByOrderByHeartRateDesc(Pageable pageable);
+
+    void deleteByRunningId(String runningId);
 }

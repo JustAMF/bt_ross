@@ -27,6 +27,11 @@ public class RunningInfoAnalysisRestController {
         this.infoAnalysis.deleteAll();
     }
 
+    @RequestMapping(value = "/delete/{runningId}", method = RequestMethod.DELETE)
+    public void deleteByRunningId(@PathVariable String runningId){
+        this.infoAnalysis.deleteByRunningId(runningId);
+    }
+
     @RequestMapping(value = "/running/all", method = RequestMethod.GET)
     public Page<RunningInformation> findAllByHeartRateDesc(@RequestParam(name = "page") int page){
         return this.infoAnalysis.findAllByOrderByHeartRateDesc(new PageRequest(page, 2));
