@@ -1,7 +1,0 @@
-/home/vagrant/workspace/hw1-running-info-analysis-service/src/main/java/hw1/rest/RunningInfoAnalysisRestController.java
-/home/vagrant/workspace/hw1-running-info-analysis-service/src/main/java/hw1/service/Impl/InfoAnalysisImpl.java
-/home/vagrant/workspace/hw1-running-info-analysis-service/src/main/java/hw1/domain/RunningInformation.java
-/home/vagrant/workspace/hw1-running-info-analysis-service/src/main/java/hw1/RunningInfoAnalysisServiceApplication.java
-/home/vagrant/workspace/hw1-running-info-analysis-service/src/main/java/hw1/domain/RunningInfoRepository.java
-/home/vagrant/workspace/hw1-running-info-analysis-service/src/main/java/hw1/service/InfoAnalysis.java
-/home/vagrant/workspace/hw1-running-info-analysis-service/src/main/java/hw1/domain/UserInfo.java

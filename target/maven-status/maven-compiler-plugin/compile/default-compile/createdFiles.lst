@@ -1,8 +1,0 @@
-hw1/domain/RunningInformation.class
-hw1/domain/RunningInfoRepository.class
-hw1/service/Impl/InfoAnalysisImpl.class
-hw1/service/InfoAnalysis.class
-hw1/domain/RunningInformation$HealthWarningLevel.class
-hw1/rest/RunningInfoAnalysisRestController.class
-hw1/domain/UserInfo.class
-hw1/RunningInfoAnalysisServiceApplication.class
